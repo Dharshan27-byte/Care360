@@ -1,0 +1,27 @@
+html {
+  min-width: 320px;
+  background: #f5f8f6;
+}
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #94cbbb;
+  outline-offset: 2px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+
+.care360-title {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #3a8dff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
